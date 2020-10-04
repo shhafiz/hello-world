@@ -1,2 +1,3 @@
 name: Shamim Hafiz Blog
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
