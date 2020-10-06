@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "First post"
+title: Shamim Hafiz Blog
+blog_title: First Post
 date: 2020-10-04
 ---
 

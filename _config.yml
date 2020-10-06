@@ -1,3 +1,4 @@
-name: Shamim Hafiz Blog
+title: Shamim Hafiz Pages
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+theme: jekyll-theme-primer
