@@ -31,6 +31,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-compose (0.12.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
@@ -81,6 +83,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.1)
+  jekyll-compose
   jekyll-theme-primer (~> 0.5.4)
   wdm (>= 0.1.0)
 

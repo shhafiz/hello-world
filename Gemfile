@@ -11,3 +11,5 @@ gem "jekyll", "~> 4.1"
 gem 'jekyll-theme-primer', '~> 0.5.4'
 gem 'wdm', '>= 0.1.0'
 
+gem 'jekyll-compose', group: [:jekyll_plugins]
+
