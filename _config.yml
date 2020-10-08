@@ -1,4 +1,19 @@
-title: Shamim Hafiz Pages
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-theme: jekyll-theme-primer
+# Setup
+title:               Learnings Cached
+tagline:             'All pros were once amateurs'
+description:         ''
+url:                 https://shhafiz.github.io/
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
+
+
+

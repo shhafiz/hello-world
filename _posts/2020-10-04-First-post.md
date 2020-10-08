@@ -1,8 +1,6 @@
 ---
 layout: post
-title: Shamim Hafiz Blogs
-blog_title: First Post
-date: 2020-10-04
+title: Testing Lanyon Theme
 ---
 
-Trying to get my Jekyll site running.
+Test document to try out Lanyon.
