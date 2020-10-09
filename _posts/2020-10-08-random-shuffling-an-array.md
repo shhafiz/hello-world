@@ -47,10 +47,10 @@ public static void RandomShuffleArray(int[] numbers)
   int temp, index,i;
   for (i = 0; i < numbers.length; i++)
   {
-  index=(int) (Math.random() * (numbers.length - i)) + i;
-  temp=numbers[i];
-  numbers[i]=numbers[index];
-  numbers[index]=temp;
+    index=(int) (Math.random() * (numbers.length - i)) + i;
+    temp=numbers[i];
+    numbers[i]=numbers[index];
+    numbers[index]=temp;
   }
 } {% endhighlight %}
 
