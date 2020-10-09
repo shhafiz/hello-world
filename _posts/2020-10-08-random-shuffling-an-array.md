@@ -15,13 +15,6 @@ tags:
 - random-shuffle
 meta:
 _edit_last: '21980982'
-author:
-login: shamimhafiz
-email: shamim.hafiz@gmail.com
-display_name: Shamim Hafiz
-first_name: Shamim
-last_name: Hafiz
-permalink: "/2020/10/08/random-shuffling-an-array/"
 ---
 <p>Sorting an array in any language is quite trivial as most of them have built in libraries to perform the task quite
   efficiently. However, most languages lack the ability to Shuffle an Array(Make a random sort). One trivial way to
