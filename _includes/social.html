@@ -1,12 +1,17 @@
 {% if site.data.social-media %}
-<div>
-    {% assign sm = site.data.social-media %}
-    {% for entry in sm %}
-    {% assign key = entry | first %}
-    {% if sm[key].id %}
-    <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i
-            class="fab {{ sm[key].fa-icon }}"></i></a>
-    {% endif %}
-    {% endfor %}
+<div style="word-spacing: 10px">
+    <ul style="list-style-type: none">
+        {% assign sm = site.data.social-media %}
+        {% for entry in sm %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+        <li style="display:inline-block">
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" target="_blank">
+                <i class="fab {{ sm[key].fa-icon }}" style="font-size:30px"></i>
+            </a>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
 </div>
 {% endif %}
