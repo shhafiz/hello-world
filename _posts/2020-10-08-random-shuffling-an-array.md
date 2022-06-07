@@ -13,8 +13,6 @@ tags:
 - algorithm
 - programming
 - random-shuffle
-meta:
-_edit_last: '21980982'
 ---
 Sorting an array in any language is quite trivial as most of them have built in libraries to perform the task quite
   efficiently. However, most languages lack the ability to Shuffle an Array(Make a random sort). One trivial way to
